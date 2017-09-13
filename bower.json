@@ -1,0 +1,25 @@
+{
+  "name": "cnabs",
+  "description": "cnabs js.css resource",
+  "main": "cnabsboot.js",
+  "keywords": [
+    "cnabs"
+  ],
+  "authors": [
+    "lj_liu"
+  ],
+  "license": "cnabs@2017",
+  "homepage": "https://www.cn-abs.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "menu",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    
+  }
+}

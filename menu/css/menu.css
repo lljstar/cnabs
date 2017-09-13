@@ -1,0 +1,366 @@
+﻿/* ::::: http://www.cn-abs.com/css/style.css ::::: */
+#header {
+    height: 65px;
+    background-color: #212121;
+    background-image: url('../image/headerbg.png');
+    background-repeat: repeat-x;
+}
+#cnabsMenu {
+    font-family: "Microsoft YaHei","微软雅黑","SimSun","宋体","arial", "serif";
+    color: white;
+    font-size: 13px;
+    background-color: #655E56;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+    #cnabsMenu #divProductName {
+        width: 300px;
+        background-image: url('../image/productnamebg.png');
+        height: 63px;
+        float: left;
+    }
+
+    #cnabsMenu .logo-img {
+        float: left;
+        border-style: none;
+    }
+
+    #cnabsMenu .menu {
+        height: 63px;
+        background-image: url('../image/menuTop.png');
+        background-repeat: no-repeat;
+        width: 720px;
+        float: right;
+        text-align: right;
+    }
+
+
+    #cnabsMenu .pagewidth {
+        margin: 0px auto;
+        width: 1050px;
+        padding: 0px;
+    }
+
+    #cnabsMenu .float {
+        float: left;
+        display: inline;
+        width: 1050px;
+        background-color: #47423C;
+    }
+
+    #cnabsMenu ol, ul {
+        list-style: outside none none;
+    }
+
+    #cnabsMenu a:link, a:hover, a:visited, a:active {
+        color: #FFC446;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    #cnabsMenu .menu-mobile {
+        display: none;
+        padding: 20px;
+    }
+
+    #cnabsMenu .menu > ul {
+        margin: 0 0 0;
+        width: 100%;
+        display: inline-block;
+        list-style: none;
+        padding: 0;
+        position: relative;
+        box-sizing: border-box;
+        background-color: #3B3734;
+    }
+
+        #cnabsMenu .menu > ul:before,
+        #cnabsMenu .menu > ul:after {
+            content: "";
+            display: table;
+        }
+
+        #cnabsMenu .menu > ul:after {
+            clear: both;
+        }
+
+        #cnabsMenu .menu > ul > li {
+            float: left;
+            background: #3B3734;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+            #cnabsMenu .menu > ul > li#personal, .menu > ul > li#liLogin {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            #cnabsMenu .menu > ul > li#personal {
+                width: 98px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            #cnabsMenu .menu > ul > li#liLogin {
+                width: 98px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+    #cnabsMenu #liLogin a {
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+
+    #cnabsMenu .menu > ul > li > a {
+        position: relative;
+        text-decoration: none;
+        height: 21px;
+        padding: 22px 1.1em;
+        display: inline-block;
+        color: #b7afa5;
+        font-weight: 500;
+        /*letter-spacing: 1px;*/
+        font-family: "Microsoft YaHei","微软雅黑","SimSun","宋体","arial", "serif";
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #cnabsMenu .menu > ul > li:hover {
+        background: #443F39 !important;
+    }
+
+    #cnabsMenu .menu > ul > li > ul {
+        display: none;
+        padding-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 20px;
+        background-color: #443F39;
+        position: absolute;
+        text-align: left;
+        margin: 0 0 0;
+        z-index: 99;
+        list-style: none;
+        /*min-width: 50%;*/
+        /*opacity:0.97;*/
+    }
+
+        #cnabsMenu .menu > ul > li > ul:before,
+        #cnabsMenu .menu > ul > li > ul:after {
+            content: "";
+            display: inline-block;
+        }
+
+        #cnabsMenu .menu > ul > li > ul:after {
+            clear: both;
+        }
+
+        #cnabsMenu .menu > ul > li > ul > div {
+            display: table-cell;
+            vertical-align: top;
+            border-right: 1px solid rgba(255,255,255,0.3);
+            white-space: nowrap;
+            text-align: center;
+        }
+
+            #cnabsMenu .menu > ul > li > ul > div > li {
+                margin: 0;
+                padding-left: 40px;
+                padding-bottom: 0;
+                list-style: none;
+                background: none;
+                text-align: left;
+            }
+
+                #cnabsMenu .menu > ul > li > ul > div > li > a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                #cnabsMenu .menu > ul > li > ul > div > li > ul {
+                    display: block;
+                    padding: 0;
+                    margin: 0 0 0;
+                    list-style: none;
+                }
+
+                    #cnabsMenu .menu > ul > li > ul > div > li > ul:before,
+                    #cnabsMenu .menu > ul > li > ul > div > li > ul:after {
+                        content: "";
+                        display: table;
+                    }
+
+                    #cnabsMenu .menu > ul > li > ul > div > li > ul:after {
+                        clear: both;
+                    }
+
+                    #cnabsMenu .menu > ul > li > ul > div > li > ul > li {
+                        float: left;
+                        width: 120px;
+                        padding: 10px 0;
+                        margin: 0;
+                        font-size: 15px;
+                    }
+
+                        #cnabsMenu .menu > ul > li > ul > div > li > ul > li a {
+                            width: 95%;
+                            padding: .2em 0;
+                            color: #fff;
+                            border: 0;
+                            text-decoration: none;
+                        }
+
+                            #cnabsMenu .menu > ul > li > ul > div > li > ul > li a:hover {
+                                color: #ffc446;
+                            }
+
+                        #cnabsMenu .menu > ul > li > ul > div > li > ul > li > ul {
+                            padding: 0;
+                            margin: 0px 0 0;
+                            list-style: none;
+                            box-sizing: border-box;
+                        }
+
+                            #cnabsMenu .menu > ul > li > ul > div > li > ul > li > ul > li {
+                                float: left;
+                                width: 100%;
+                                padding: 5px 0;
+                                margin: 0;
+                                font-size: 13px;
+                                color: #b7afa5;
+                            }
+
+                                #cnabsMenu .menu > ul > li > ul > div > li > ul > li > ul > li a {
+                                    width: 95%;
+                                    padding: .1em 0;
+                                    border: 0;
+                                    color: #D6D6D6;
+                                }
+
+                        #cnabsMenu .menu > ul > li > ul > div > li > ul > li > div {
+                            padding-bottom: 10px;
+                        }
+
+
+
+
+    #cnabsMenu #liLogin {
+        margin-left: 0px;
+    }
+
+        #cnabsMenu #liLogin a {
+            display: inline-block;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+    #cnabsMenu #login, #apply {
+        color: #FFC446;
+        cursor: pointer;
+    }
+
+    #cnabsMenu .message-informer {
+        display: none;
+        font-size: 11px;
+        font-weight: 700;
+        font-family: "arial", "serif","SimSun","宋体","Microsoft YaHei","微软雅黑";
+        padding: 0 3px;
+        color: #fff;
+        background: #bf1031;
+        text-align: center;
+        border-radius: 50%;
+        box-shadow: 0 1px 2px rgba(0,0,0,.1),inset 0 1px 0 rgba(255,255,255,.15);
+        line-height: 16px;
+    }
+
+    #cnabsMenu #user .message-informer {
+        position: absolute;
+        top: 7px;
+        left: 28px;
+    }
+    #cnabsMenu .inline {
+            display: inline;
+        }
+#cnabsMenu .dialogLink {
+    color: #FFC446;
+    cursor: pointer;
+    float: right;
+}
+
+    #cnabsMenu .dialogDiv {
+        width: 240px;
+        overflow-y: scroll;
+    }
+
+    #cnabsMenu .dialogChart {
+    }
+
+    #cnabsMenu .dialogTable {
+        text-align: center;
+    }
+
+    #cnabsMenu #userconfig {
+        padding: 8px;
+    }
+
+    #cnabsMenu #changepwd {
+        color: #FFC446;
+    }
+
+    #cnabsMenu #UserInfo {
+        width: 180px;
+        font-size: 14px;
+        float: left;
+        margin-left: 460px;
+        padding-top: 12px;
+    }
+
+    #cnabsMenu .down-icon {
+        position: absolute;
+        content: '';
+        top: 55%;
+        right: 5%;
+        height: 0;
+        width: 0;
+        margin-top: -3px;
+        border-top: 4px solid #b7afa5;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+    }
+
+    #cnabsMenu #personal .down-icon {
+        right: -12px;
+        height: 0;
+    }
+#cnabsMenu .newFunctionPoint {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+    #cnabsMenu .emptySpace {
+        margin-left: 14px !important;
+    }
+
+    #cnabsMenu .menuSpace {
+        width: 100px;
+    }
